@@ -1,0 +1,252 @@
+.show-small-device,
+.menu-toggle-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-col2 {
+    grid-template-columns: 1fr;
+  }
+  .bg-full {
+    width: 400px;
+  }
+  #home .right-side figure img {
+    position: initial;
+    margin: 0 auto;
+  }
+  .right-side .icons .sublime {
+    top: -5rem;
+  }
+  .sponsors-images {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav-right-btn {
+    display: none;
+  }
+  .show-small-device p > span:first-child {
+    color: var(--text-while) !important;
+  }
+  section {
+    padding: 2em 0;
+  }
+  .show-small-device,
+  .menu-toggle-btn {
+    display: flex;
+  }
+  .open-menu.active {
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0;
+    background: #0411345c;
+    & > i {
+      display: none;
+    }
+  }
+  .nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 400px;
+    background: #191d4f;
+    padding: 1.5rem 2rem;
+    z-index: 3;
+    transition: 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+
+    & > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .close-menu-btn {
+      background: #0080ff2b;
+      & > i {
+        color: var(--text-while);
+      }
+    }
+    .toggle-theme-btn {
+      height: 40px !important;
+      width: 40px !important;
+      border: 1px solid #4d53a4;
+      margin-top: 2rem;
+      & > i {
+        color: var(--text-while);
+      }
+    }
+    & > .nav-lists {
+      padding-block-start: 5rem;
+      padding-inline: 0 2rem;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 100%;
+      width: 100%;
+
+      & > li {
+        padding: 1rem 0;
+        border-bottom: 1px solid #4d53a4;
+        width: 100%;
+
+        & > a {
+          width: 100%;
+          display: block;
+          color: var(--text-while);
+          &:hover {
+            color: var(--primary-color);
+          }
+        }
+      }
+    }
+  }
+
+  .nav-wrapper.active {
+    left: 0;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .grid-col2.qualification {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-wrapper {
+    padding: 2rem 0;
+  }
+  .swiper-slide {
+    & > h4 {
+      max-width: 90%;
+    }
+  }
+  .swiper::before,
+  .swiper::after {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .nav-wrapper {
+    width: 95%;
+  }
+  .tabs {
+    & > li {
+      width: 100%;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+  .cta-container {
+    padding-inline: 1rem;
+  }
+
+  .counter-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about .left-side figure::before {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* || */
+  #home .right-side figure img {
+    height: 360px;
+    margin: 0 auto;
+  }
+  #home .left-side h1 {
+    font-size: 45px;
+    line-height: 1.25;
+  }
+  #about .left-side figure {
+    display: flex;
+    align-items: flex-end;
+  }
+  #about .left-side figure::before {
+    height: 250px;
+  }
+  #about .left-side figure img {
+    height: 350px;
+  }
+
+  .section-heading {
+    font-size: 1.85rem;
+  }
+  .about-bottom {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .service-card {
+    padding: 2rem 1rem;
+  }
+
+  .cta-wrapper h2 {
+    font-size: 1.75rem !important;
+    & > br {
+      display: none;
+    }
+  }
+  .swiper-slide h4 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    height: 30px;
+    width: 30px;
+
+    & > i {
+      font-size: 0.7rem;
+    }
+  }
+  .swiper::before,
+  .swiper::after {
+    width: 100px;
+  }
+
+  .footer-top h2 {
+    font-size: 1.75rem;
+  }
+
+  .bg-full {
+    width: 40%;
+  }
+}
+
+/* || ** Contact  */
+
+@media screen and (max-width: 1200px) {
+  .form-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .form-container {
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  form {
+    padding-inline-end: 0;
+  }
+  .map {
+    margin-top: 2rem;
+  }
+  .map > iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .form-wrapper {
+    max-width: 100%;
+  }
+}

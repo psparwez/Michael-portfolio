@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Smith - A Developer</title>
+    <!-- || ** Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- || ** Remix icons link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- || ** Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- || ** Scroll reveal link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- || ** Lenis for smooth scrolling  -->
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.16/dist/lenis.css"
+    />
+
+    <!-- || ** Favicon  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
+
+    <!-- || ** Custom CSS file  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- ============================== HEADER ===============================  -->
+    <header>
+      <nav class="nav">
+        <a href="#home" class="logo">
+          <span>M</span>
+          <p>
+            <span>Michael Smith</span>
+            <span>Developer</span>
+          </p>
+        </a>
+        <div class="nav-wrapper" data-menu-lists>
+          <div>
+            <a href="#home" class="logo show-small-device">
+              <span>M</span>
+              <p>
+                <span>Michael Smith</span>
+                <span>Developer</span>
+              </p>
+            </a>
+
+            <button class="menu-toggle-btn close-menu-btn" data-menu-toggle-btn>
+              <i class="ri-close-line"></i>
+            </button>
+          </div>
+          <ul class="nav-lists">
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li>
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="toggle-theme-btn" data-theme-toggle-btn>
+              <i class="ri-moon-fill moon"></i>
+              <i class="ri-sun-fill sun"></i>
+            </li>
+          </ul>
+        </div>
+        <a href="mailto:demo@gmail.com" class="nav-right-btn" type="button">
+          <span><i class="ri-mail-line"></i></span>
+          <span>abc@gmail.com</span>
+        </a>
+
+        <button class="menu-toggle-btn open-menu" data-menu-toggle-btn>
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- ============================== HOME ===============================  -->
+
+      <section id="home">
+        <div class="container">
+          <div class="grid-col2">
+            <!-- left side  -->
+            <div class="left-side">
+              <h1>
+                Hello Mate 👋 <br />
+                I'm Michle Smith a <span>Web Developer.</span>
+              </h1>
+              <br />
+              <p>
+                Hi, I'm Michle a freelance web designer from San-Francisco. I
+                help brands turn their ideas into high quality products.
+              </p>
+              <div class="buttons">
+                <button class="flex-center btn btn-primary" data-book-call>
+                  Book a Call
+                  <span><i class="ri-telegram-2-fill"></i></span>
+                </button>
+                <button class="flex-center btn btn-outline">
+                  Download CV
+                  <span><i class="ri-download-2-line"></i></span>
+                </button>
+              </div>
+            </div>
+            <!-- right side  -->
+            <div class="right-side">
+              <figure>
+                <img src="./assets/images/profile-image.png" alt="image" />
+              </figure>
+              <!-- icons  -->
+              <div class="icons">
+                <div class="icon vscode">
+                  <img
+                    src="./assets/images/icons/visual-studio-code.svg"
+                    alt="VS code icon"
+                    class="w-full"
+                  />
+                </div>
+                <div class="icon laravel">
+                  <img
+                    src="./assets/images/icons/laravel.svg"
+                    alt="Laravel icon"
+                    class="w-full"
+                  />
+                </div>
+                <div class="icon react">
+                  <img src="./assets/images/icons/react.svg" alt="react icon" />
+                </div>
+                <div class="icon angular">
+                  <img
+                    src="./assets/images/icons/angular-icon.svg"
+                    alt="angular icon"
+                    class="w-full"
+                  />
+                </div>
+                <div class="icon sublime">
+                  <img
+                    src="./assets/images/icons/sublime-text-icon.svg"
+                    alt="sublime icon"
+                    class="w-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-full"></div>
+      </section>
+
+      <!-- ============================== SPONSOR ===============================  -->
+
+      <section>
+        <div class="container sponsor-container">
+          <div class="text-center section-text">
+            <h2>
+              Proud Marketing <span class="primary-color">Partners</span> With
+            </h2>
+            <div class="sponsors-images">
+              <img
+                src="./assets/images/sponsor/Google-logo.png"
+                alt="Google-logo"
+              />
+              <img
+                src="./assets/images/sponsor/Amazon-Logo.png"
+                alt="Amazon-Logo"
+              />
+              <img
+                src="./assets/images/sponsor/Airbnb-logo.png"
+                alt="Airbnb-logo"
+              />
+              <img
+                src="./assets/images/sponsor/intrax-logo.svg"
+                alt="intrax-logo"
+              />
+              <img
+                src="./assets/images/sponsor/noxis-logo.svg"
+                alt="noxis-logo"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- ============================== SPONSOR ===============================  -->
+      </section>
+
+      <!-- ============================== ABOUT ME ===============================  -->
+      <section id="about">
+        <div class="container">
+          <div class="grid-col2">
+            <!-- left side  -->
+            <div class="left-side">
+              <figure>
+                <img src="./assets/images/about-image.png" alt="Image" />
+              </figure>
+            </div>
+            <!-- right side  -->
+            <div class="about-text">
+              <p class="label">About Me</p>
+              <h2 class="section-heading">
+                More Than 5+ Years Programming Experienced
+              </h2>
+              <p class="section-description">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries.
+              </p>
+              <div class="contact-info">
+                <p><strong>Name: </strong>Michle Smith</p>
+                <p><strong>location: </strong>Delhi, Inidia</p>
+                <p><strong>Email: </strong>abc@gmail.com</p>
+                <p><strong>Office: </strong>Main street, Delhi</p>
+              </div>
+              <div class="about-bottom">
+                <a href="#" class="btn btn-primary">
+                  Download CV <span><i class="ri-download-2-line"></i></span>
+                </a>
+                <!-- <div class="divider"></div> -->
+                <div class="social-lists">
+                  <p>Follow me</p>
+                  <div class="social-icons">
+                    <a href="#" target="_blank"
+                      ><i class="ri-facebook-fill"></i
+                    ></a>
+                    <a href="#" target="_blank"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                    <a href="#" target="_blank"
+                      ><i class="ri-github-fill"></i
+                    ></a>
+                    <a href="#" target="_blank"
+                      ><i class="ri-twitter-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== SKILLSET ===============================  -->
+
+      <section id="skillset">
+        <div class="container">
+          <div class="grid-col2">
+            <!-- left side  -->
+            <div>
+              <p class="label">SkillSet</p>
+              <h2 class="section-heading">
+                Creative and Professional Skills Experience on Few Area
+              </h2>
+              <p class="section-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                feugiat fringilla lorem sed bibendum. Pellentesque venenatis,
+                ipsum eget ullamcorper gravida in mattis ipsum ligula at tellus.
+              </p>
+              <a href="#" class="btn btn-primary skillset-btn"
+                >Get Any Project
+                <span><i class="ri-share-forward-fill"></i></span
+              ></a>
+            </div>
+            <!-- Right side  -->
+            <div>
+              <div class="skillset-container">
+                <div>
+                  <label>Product Design & Development</label>
+                  <div class="bar">
+                    <div class="skill-bar" style="--percent: 67%"></div>
+                    <p>67%</p>
+                  </div>
+                </div>
+                <div>
+                  <label>Web Development</label>
+                  <div class="bar">
+                    <div class="skill-bar" style="--percent: 89%"></div>
+                    <p>89%</p>
+                  </div>
+                </div>
+                <div>
+                  <label>Front-End Development</label>
+                  <div class="bar">
+                    <div class="skill-bar" style="--percent: 57%"></div>
+                    <p>57%</p>
+                  </div>
+                </div>
+                <div>
+                  <label>UI Design & UX Development</label>
+                  <div class="bar">
+                    <div class="skill-bar" style="--percent: 67%"></div>
+                    <p>67%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== SERVICES ===============================  -->
+
+      <section id="services">
+        <div class="container">
+          <div class="text-center">
+            <p class="label">Our services</p>
+            <h2 class="section-heading">Awesome Services For You</h2>
+          </div>
+          <div class="service-grid">
+            <!-- card 1  -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-shape-fill"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Design</h3>
+                <p>
+                  Lorem Ipsum is simply dumy text of the printing and type
+                  setting industry.
+                </p>
+                <a href="#">Explore Service</a>
+              </div>
+            </div>
+            <!-- card 2  -->
+            <div class="service-card active">
+              <div class="service-icon active">
+                <i class="ri-edit-box-line"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Design</h3>
+                <p>
+                  Lorem Ipsum is simply dumy text of the printing and type
+                  setting industry.
+                </p>
+                <a href="#" class="active">Explore Service</a>
+              </div>
+            </div>
+            <!-- card 3  -->
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Design</h3>
+                <p>
+                  Lorem Ipsum is simply dumy text of the printing and type
+                  setting industry.
+                </p>
+                <a href="#">Explore Service</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== COUNTER ===============================  -->
+      <section>
+        <div class="container">
+          <div class="counter-grid">
+            <div class="counter-item">
+              <h3>68</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="counter-item">
+              <h3>07</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="counter-item">
+              <h3>25k+</h3>
+              <p>Hours Worked</p>
+            </div>
+            <div class="counter-item">
+              <h3>8</h3>
+              <p>Awards Won</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== OUR EXPERIENCE & QUALIFICATION ===============================  -->
+
+      <section>
+        <div class="container">
+          <div class="grid-col2 qualification">
+            <!-- left side  -->
+            <div class="">
+              <p class="label">Qualification</p>
+              <h2 class="section-heading">My Education</h2>
+
+              <ul class="edu-lists">
+                <li>
+                  <h3>Rajshahi Polytechnic Institute ( 2011-2012 )</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">Diploma In Computer Eng.</p>
+                </li>
+                <li>
+                  <h3>Varendra University ( 2013-2017 )</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">BSC in CSE</p>
+                </li>
+                <li>
+                  <h3>Rajshahi University ( 2017-2021 )</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">Programming</p>
+                </li>
+
+                <!-- vertical line  -->
+                <div class="v-line"></div>
+              </ul>
+            </div>
+
+            <!-- right side  -->
+            <div class="">
+              <p class="label">My Work Experience</p>
+              <h2 class="section-heading">My Awesome Experience</h2>
+              <ul class="edu-lists">
+                <li>
+                  <h3>Code Astrology ( 2011-2012 )</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">Internship.</p>
+                </li>
+                <li>
+                  <h3>Zakir Soft ( 2011-2012 )</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">UI/UX Designer</p>
+                </li>
+                <li>
+                  <h3>DevignEdge (2011-2012)</h3>
+                  <p>
+                    Lorem ipsum dolor sit amese adipiscing elit. Donec feugiated
+                    a fringilla sed bibendum.
+                  </p>
+                  <p class="designations">Product Designer</p>
+                </li>
+
+                <!-- vertical line  -->
+                <div class="v-line"></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== CTA ===============================  -->
+
+      <section id="cta">
+        <div class="container cta-container">
+          <div class="cta-wrapper">
+            <div>
+              <p>Have Any Project In Mind?</p>
+              <h2>
+                Don’t Be Hesitate To Contact <br />
+                With Me
+              </h2>
+            </div>
+            <div class="">
+              <a href="#" class="btn btn-primary">
+                Get a Quote
+                <span>
+                  <i class="ri-arrow-right-line"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="cta-overlay"></div>
+        </div>
+      </section>
+
+      <!-- ============================== PORTFOLIO ===============================  -->
+
+      <section id="projects">
+        <div class="container">
+          <div class="text-center portfolio-text">
+            <p class="label">portfolio</p>
+            <h2 class="section-text">Some Of My Recent Works</h2>
+          </div>
+          <ul class="tabs">
+            <li class="active" data-category="*">All</li>
+            <li data-category="web-design">Web Design</li>
+            <li data-category="web-development">Web Development</li>
+            <li data-category="ui-ux">UI/UX Design</li>
+          </ul>
+          <div class="portfolio-grid">
+            <div class="portfolio-card" data-category="web-design">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-01.png"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+            <div class="portfolio-card active" data-category="web-design">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-02.png"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+            <div class="portfolio-card" data-category="web-development">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-03.png"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+            <div class="portfolio-card" data-category="web-development">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-04.png"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+            <div class="portfolio-card" data-category="ui-ux">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-05.jpg"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+            <div class="portfolio-card" data-category="ui-ux">
+              <figure>
+                <img
+                  src="./assets/images/portfolio/project-06.jpg"
+                  alt="portfolio"
+                />
+              </figure>
+              <figcaption>
+                <div class="">
+                  <label>Web Developement</label>
+                  <h3>Ecommerce Website Dashboard</h3>
+                </div>
+                <div class="share-icon"><i class="ri-send-plane-fill"></i></div>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== TESTIMONIALS ===============================  -->
+
+      <section id="testimonials">
+        <div class="container">
+          <div class="">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimo-avatar">
+                    <img src="./assets/images/avata-01.png" alt="Avatar" />
+                  </div>
+                  <h4>
+                    “ It was great working with you! I loved starting new
+                    projects and seeing how a simple idea can be explored and
+                    turned into a real dolor ipsum masterpiece. ”
+                  </h4>
+                  <div class="avatar-details">
+                    <h4>Chris Brendon</h4>
+                    <label>Senior Manager</label>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next">
+                <i class="ri-arrow-right-fill"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="ri-arrow-left-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== BLOG ===============================  -->
+
+      <section id="blog">
+        <div class="container">
+          <div class="section-blog-text">
+            <div>
+              <p class="label">Blog & news</p>
+              <h2 class="section-heading">Our Latest Blogs</h2>
+            </div>
+            <a href="#" class="btn btn-primary">
+              Read Our Blogs
+              <span>
+                <i class="ri-arrow-right-s-line"></i>
+              </span>
+            </a>
+          </div>
+          <ul class="blog-list">
+            <li>
+              <!-- image  -->
+              <figure class="blog-image">
+                <img src="./assets/images/blogs/blog-01.png" alt="Blog one" />
+              </figure>
+              <!-- text  -->
+              <figcaption class="blog-details">
+                <span>08 Feb, 21</span>
+                <h3>Determing Marketing Budget Can be Frustrating.</h3>
+
+                <!-- posted by  -->
+                <div class="author-details">
+                  <div class="">
+                    <div class="author-image">
+                      <img
+                        src="./assets/images/client01.png"
+                        alt="Client Image"
+                      />
+                    </div>
+                    <div class="author-name">
+                      <p>Souja Flora</p>
+                      <span>Surat, Gujrat</span>
+                    </div>
+                  </div>
+                  <div class="">
+                    <span><i class="ri-chat-4-line"></i></span>
+                    <p>56</p>
+                  </div>
+                </div>
+              </figcaption>
+            </li>
+            <li>
+              <!-- image  -->
+              <figure class="blog-image">
+                <img src="./assets/images/blogs/blog-02.png" alt="Blog one" />
+              </figure>
+              <!-- text  -->
+              <figcaption class="blog-details">
+                <span>08 Feb, 21</span>
+                <h3>How to Win The Attention of New Clients: Tips & Tricks</h3>
+
+                <!-- posted by  -->
+                <div class="author-details">
+                  <div>
+                    <div class="author-image">
+                      <img
+                        src="./assets/images/client01.png"
+                        alt="Client Image"
+                      />
+                    </div>
+                    <div class="author-name">
+                      <p>Souja Flora</p>
+                      <span>Dhaka, USA</span>
+                    </div>
+                  </div>
+                  <div class="">
+                    <span><i class="ri-chat-4-line"></i></span>
+                    <p>34</p>
+                  </div>
+                </div>
+              </figcaption>
+            </li>
+            <li>
+              <!-- image  -->
+              <figure class="blog-image">
+                <img src="./assets/images/blogs/blog-03.png" alt="Blog one" />
+              </figure>
+              <!-- text  -->
+              <figcaption class="blog-details">
+                <span>08 Feb, 21</span>
+                <h3>Business Agencies vs Advertising Agencies.</h3>
+
+                <!-- posted by  -->
+                <div class="author-details">
+                  <div>
+                    <div class="author-image">
+                      <img
+                        src="./assets/images/client01.png"
+                        alt="Client Image"
+                      />
+                    </div>
+                    <div class="author-name">
+                      <p>Souja Flora</p>
+                      <span>Delhi, India</span>
+                    </div>
+                  </div>
+                  <div class="comment">
+                    <span><i class="ri-chat-4-line"></i></span>
+                    <p>27</p>
+                  </div>
+                </div>
+              </figcaption>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================== FOOTER ===============================  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top flex-center">
+          <p class="label">Contact me</p>
+          <h2>Got a Project? Let's Talk!</h2>
+          <a href="./contact.html" class="btn btn-primary">
+            Get in touch <span><i class="ri-send-plane-fill"></i></span>
+          </a>
+        </div>
+        <div class="footer-bottom">
+          <ul class="social-lists">
+            <li>
+              <a href="#">
+                <i class="ri-facebook-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-dribbble-line"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-github-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="">© 2024 Michael. All rights reserved</p>
+        </div>
+      </div>
+
+      <!-- custom shape  -->
+      <div class="custom-shape">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </footer>
+
+    <!-- || ** Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- || ** Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- || ** Initialize lenis  -->
+    <script>
+      const lenis = new Lenis({
+        autoRaf: true,
+      });
+
+      // Listen for the scroll event and log the event data
+      lenis.on("scroll", (e) => {});
+    </script>
+
+    <!-- || ** Scroll reveal link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- || ** CUSTOM JS File  -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/reveal.js"></script>
+  </body>
+</html>
